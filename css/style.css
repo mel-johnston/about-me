@@ -1,3 +1,42 @@
 body {
-  background-color: grey;
+  background-color: rgb(20, 20, 20);
+  position: relative;
+  min-height: 100%;
+  width: 100%;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(192, 187, 187);
+  /* background-color: red; */
+  padding: 1%;
+  text-align: center;
+  margin-top: 1%;
+}
+
+
+
+#intro {
+  color: rgb(192, 187, 187);
+  padding: 2%;
+  font-size: 18px;
+  /* background-color: rgb(50, 50, 51); */
+  line-height: 1.5em;
+  letter-spacing: .2px;
+  border: solid 1px;
+  margin: 4em;
+
+}
+
+
+footer {
+  color: rgb(192, 187, 187);
+  font-size: 16px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  /* background-color: red; */
+  text-align: center;
+  padding: 5px;
 }
