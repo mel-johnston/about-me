@@ -10,24 +10,90 @@ h1 {
   font-weight: bold;
   color: rgb(192, 187, 187);
   /* background-color: red; */
-  padding: 1%;
+  padding: 1rem;
   text-align: center;
-  margin-top: 1%;
+  /* margin-top: 1%; */
 }
 
-
+h2 {
+  font-size: 1.2em;
+  margin-bottom: .5em;
+}
 
 #intro {
   color: rgb(192, 187, 187);
-  padding: 2%;
+  padding: 1rem;
   font-size: 18px;
   /* background-color: rgb(50, 50, 51); */
   line-height: 1.5em;
   letter-spacing: .2px;
   border: solid 1px;
-  margin: 4em;
+  margin: 2rem 4rem 0;
+}
+
+ul {
+  color: rgb(192, 187, 187);
+  /* background-color: red; */
+  /* list-style-type: circle; */
 
 }
+
+
+#intro-list {
+  color: rgb(192, 187, 187);
+  padding: 1rem;
+  font-size: 18px;
+  line-height: 1.5em;
+  letter-spacing: .2px;
+  border: solid 1px;
+  margin: 2rem 4rem 1rem;
+}
+
+ul li {
+  margin-left: 2rem;
+  list-style-type: square;
+}
+
+#top-10 {
+  color: rgb(192, 187, 187);
+  padding: 1rem;
+  font-size: 18px;
+  /* background-color: rgb(102, 101, 101); */
+  line-height: 1.5em;
+  letter-spacing: .2px;
+  border: solid 1px;
+  margin: 2rem 4rem 1rem;
+}
+
+ol li {
+  margin-left: 2rem;
+  list-style-type: number;
+  /* display: list-item; */
+  /* background-color: red; */
+}
+
+li>a {
+  color: rgb(166, 203, 214);
+  text-decoration: none;
+
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 4rem;
+  /* background-color: red; */
+}
+
+img {
+
+  width: 10em;
+  height: 10em;
+  /* margin: auto; */
+}
+
 
 
 footer {
@@ -38,5 +104,5 @@ footer {
   width: 100%;
   /* background-color: red; */
   text-align: center;
-  padding: 5px;
+  padding: 1rem;
 }
