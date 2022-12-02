@@ -6,6 +6,16 @@ body {
   font-family: 'Roboto Slab';
 }
 
+nav {
+  text-transform: uppercase;
+  /* display: block; */
+  text-align: center;
+  /* border: solid 1px white; */
+  list-style-type: none;
+  padding-top: .5rem;
+}
+
+
 h1 {
   font-size: 40px;
   font-weight: bold;
@@ -45,7 +55,7 @@ ul {
   margin: 2rem 4rem 1rem;
 }
 
-ul li {
+#intro-list ul li {
   margin-left: 2rem;
   list-style-type: square;
 }
