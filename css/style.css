@@ -8,9 +8,7 @@ body {
 
 nav {
   text-transform: uppercase;
-  /* display: block; */
   text-align: center;
-  /* border: solid 1px white; */
   list-style-type: none;
   padding-top: .5rem;
 }
@@ -43,7 +41,6 @@ h2 {
 ul {
   color: rgb(192, 187, 187);
 }
-
 
 #intro-list {
   color: rgb(192, 187, 187);
@@ -99,9 +96,8 @@ img {
   height: 25em;
   margin: auto;
   border-radius: 1em;
+  box-shadow: rgb(73, 73, 73) 5px 10px 15px -10px;
 }
-
-
 
 footer {
   color: rgb(192, 187, 187);
@@ -111,3 +107,29 @@ footer {
   text-align: center;
   padding: 1rem;
 }
+
+.hoverwrap {
+  position: relative;
+}
+
+.hovercap {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+.hovercap {
+  visibility: none;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.hoverwrap:hover .hovercap {
+  visibility: visible;
+  opacity: 1;
+} */
